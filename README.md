@@ -97,4 +97,4 @@ The framework integrates **Allure Reports** to provide:
 Software QA & Automation Test Engineer
 
 **LinkedIn:**
-https://www.linkedin.com/in/YOUR-LINKEDIN
+https://www.linkedin.com/posts/muhammad-safwat-179773219_softwaretesting-automationtesting-qualityassurance-ugcPost-7477362603388968960-XiSs/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7477362604525486080&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAADcbsC0B20PhmB98sHiwzPjAIlq4gxTYjY0
