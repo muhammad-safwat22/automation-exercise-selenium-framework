@@ -1,0 +1,96 @@
+{
+  "users": {
+    "validUser": {
+      "name": "Muhammad Safwat",
+      "email": "MOCHA74@gmail.com",
+      "password": "2274",
+      "title": "Mr",
+      "day": "2",
+      "month": "November",
+      "year": "1999",
+      "firstName": "Muhammad",
+      "lastName": "Safwat",
+      "company": "Giza System",
+      "address1": "NO.1 Street",
+      "address2": "NO.7 Street",
+      "country": "United States",
+      "state": "Cairo",
+      "city": "Giza",
+      "zipcode": "M22",
+      "mobile": "12345678910",
+	  "comment": "This is a Beautiful Product."
+    },
+
+    "invalidUser": {
+      "email": "MUHAMMAD_MOCHA74@gmail.com",
+      "password": "227422"
+    }
+  },
+
+  "products": {
+    "firstProduct": "Premium Polo T-Shirts",
+    "secondProduct": "Regular Fit Straight Jeans",
+    "searchProduct": "Premium Polo T-Shirts",
+
+    "quantityVerification": {
+      "productName": "Premium Polo T-Shirts",
+	  "productNameWithPoloName": "Premium",
+	  "quantity": "4"
+    },
+
+    "cartProducts": [
+      {
+        "name": "Blue Top",
+        "price": "500"
+      },
+      {
+        "name": "Men Tshirt",
+        "price": "400"
+      }
+    ]
+  },
+
+  "checkout": {
+    "orderComment": "Please Deliver Between 9AM - 12PM",
+
+    "payment": {
+      "cardName": "MUHAMMAD SAFWAT MUHAMMAD",
+      "cardNumber": "1234 1234 1234 1234",
+      "cvc": "123",
+      "expiryMonth": "11",
+      "expiryYear": "25"
+    }
+  },
+
+  "contact": {
+    "name": "Muhammad Safwat",
+    "email": "MOCHA74@gmail.com",
+    "subject": "Testing Subject",
+    "message": "This is a Message",
+    "filePath": "E:\\Software Testing Course\\Edges for Training\\Edges for Training Slides\\AutomationExercise_Framework\\Commands.txt"
+  },
+
+  "subscription": {
+    "email": "MOCHA74@gmail.com"
+  },
+
+  "categories": {
+    "categoryGroupName": "MEN",
+    "womenDress": "WOMEN - DRESS PRODUCTS",
+    "menJeans": "MEN - JEANS PRODUCTS",
+	"womenOnly": "WOMEN -",
+	"menOnly": "MEN -"
+  },
+
+  "brands": {
+    "title": "BRANDS",
+    "polo": "BRAND - POLO PRODUCTS",
+    "kookieKids": "BRAND - KOOKIE KIDS PRODUCTS",
+	"titleOnly": "BRAND -"
+  },
+
+  "download": {
+    "path": "C:\\Users\\MOCHA\\Downloads",
+    "fileName": "invoice"
+  }
+}

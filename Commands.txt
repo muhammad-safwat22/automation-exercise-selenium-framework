@@ -1,0 +1,52 @@
+Allure Commands for Maven/TestNG: -
+====================================
+
+1. Go to the project folder:
+>> cd /d "E:\Software Testing Course\Edges for Training\Edges for Training Slides\AutomationExercise_Framework"
+// Open the project folder to write Allure commands.
+
+2. Serve Allure report interactively:
+>> mvn allure:serve
+// Generates Allure report and opens it in the browser immediately.
+
+3.Clean project and run all tests:
+>> mvn clean test
+// Cleans old files in target/ and runs all TestNG tests.
+
+4. Generate Allure report without opening browser:
+>> mvn allure:report
+// Saves the report in target/site/allure-maven/index.html.
+
+5. Clean old reports (Surefire + Allure):
+>> mvn clean
+// Deletes target/ folder including old reports.
+
+6. Run specific test class:
+>> mvn -Dtest=TestClassName test
+// Runs only the specified test class.
+
+7. Run specific test method:
+>> mvn -Dtest=TestClassName#testMethodName test
+// Runs only a specific test method.
+
+8. Run tests with verbose/debug logging:
+>> mvn clean test -X
+// Prints detailed debug info for Maven and test execution.
+
+9. Skip tests (just compile/build project):
+>> mvn clean install -DskipTests
+// Compiles project but skips running tests.
+
+10. Generate Allure report from existing results:
+>> allure generate target/allure-results --clean -o target/allure-report
+// Creates a new Allure report from existing results folder.
+
+11. Open previously generated Allure report:
+>> allure open target/allure-report
+// Opens the saved report in browser.
+
+											||>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>||
+											||=================================||
+											||--Prepared by:- Muhammad Safwat--||
+											||=================================||
+											||<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<||

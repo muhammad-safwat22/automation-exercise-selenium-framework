@@ -1,0 +1,111 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+    TestNG Suite Configuration
+
+    Suite Name : AutomationExerciseSuite
+
+    Purpose:
+    Executes all automated UI test cases for the
+    Automation Exercise application.
+
+    Reporting:
+    - Allure TestNG Listener
+-->
+
+<suite name="AutomationExerciseSuite" verbose="1" parallel="false">
+
+    <!-- Register the Allure TestNG listener -->
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <!-- Main Test Execution -->
+    <test name="AutomationTests">
+
+        <!-- Test Classes -->
+        <classes>
+
+            <!-- TC_01 - Register User -->
+            <class name="tests.Test01_RegisterUser" />
+
+            <!-- TC_02 - Login User with Correct Credentials -->
+            <class name="tests.Test02_LoginUserWithCorrect" />
+
+            <!-- TC_03 - Login User with Incorrect Credentials -->
+            <class name="tests.Test03_LoginUserWithIncorrect" />
+
+            <!-- TC_04 - Logout User -->
+            <class name="tests.Test04_LogoutUser" />
+
+            <!-- TC_05 - Register User with Existing Email -->
+            <class name="tests.Test05_RegisterUserWithExistingEmail" />
+
+            <!-- TC_06 - Contact Us Form -->
+            <class name="tests.Test06_ContactUsForm" />
+
+            <!-- TC_07 - Verify Test Cases Page -->
+            <class name="tests.Test07_VerifyTestCasesPage" />
+
+            <!-- TC_08 - Verify All Products -->
+            <class name="tests.Test08_VerifyAllProducts" />
+
+            <!-- TC_09 - Search Product -->
+            <class name="tests.Test09_SearchProduct" />
+
+            <!-- TC_10 - Verify Subscription in Home Page -->
+            <class name="tests.Test10_VerifySubscriptionInHomePage" />
+
+            <!-- TC_11 - Verify Subscription in Cart Page -->
+            <class name="tests.Test11_VerifySubscriptionInCartPage" />
+
+            <!-- TC_12 - Add Products in Cart -->
+            <class name="tests.Test12_AddProductsInCart" />
+
+            <!-- TC_13 - Verify Product Quantity in Cart -->
+            <class name="tests.Test13_VerifyProductQuantityInCart" />
+
+            <!-- TC_14 - Register While Checkout -->
+            <class name="tests.Test14_RegisterWhileCheckout" />
+
+            <!-- TC_15 - Register Before Checkout -->
+            <class name="tests.Test15_RegisterBeforeCheckout" />
+
+            <!-- TC_16 - Login Before Checkout -->
+            <class name="tests.Test16_LoginBeforeCheckout" />
+
+            <!-- TC_17 - Remove Products From Cart -->
+            <class name="tests.Test17_RemoveProductsFromCart" />
+
+            <!-- TC_18 - View Category Products -->
+            <class name="tests.Test18_ViewCategoryProducts" />
+
+            <!-- TC_19 - View and Cart Brand Products -->
+            <class name="tests.Test19_ViewAndCartBrandProducts" />
+
+            <!-- TC_20 - Search Products and Verify Cart After Login -->
+            <class name="tests.Test20_SearchProductsAndVerifyCartAfterLogin" />
+
+            <!-- TC_21 - Add Review on Product -->
+            <class name="tests.Test21_AddReviewOnProduct" />
+
+            <!-- TC_22 - Add To Cart From Recommended Items -->
+            <class name="tests.Test22_AddToCartFromRecommendedItems" />
+
+            <!-- TC_23 - Verify Address Details in Checkout Page -->
+            <class name="tests.Test23_VerifyAddressDetailsInCheckoutPage" />
+
+            <!-- TC_24 - Download Invoice After Purchase Order -->
+            <class name="tests.Test24_DownloadInvoiceAfterPurchaseOrder" />
+
+            <!-- TC_25 - Verify Scroll Up Using Arrow -->
+            <class name="tests.Test25_VerifyScrollUpUsingArrow" />
+
+            <!-- TC_26 - Verify Scroll Up Without Arrow -->
+            <class name="tests.Test26_VerifyScrollUpWithoutArrow" />
+
+        </classes>
+
+    </test>
+
+</suite>
